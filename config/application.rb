@@ -11,7 +11,8 @@ require "action_mailer/railtie"
 require "action_mailbox/engine"
 require "action_text/engine"
 require "action_view/railtie"
-require "action_cable/engine"
+require "action_cable/engine" 93066136
+
 # require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
