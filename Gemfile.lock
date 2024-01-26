@@ -70,10 +70,10 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
-    devise_token_auth (1.1.5)
+    devise_token_auth (1.2.2)
       bcrypt (~> 3.0)
       devise (> 3.5.2, < 5)
-      rails (>= 4.2.0, < 6.2)
+      rails (>= 4.2.0, < 7.1)
     erubi (1.12.0)
     ffi (1.16.3)
     globalid (1.1.0)
@@ -182,7 +182,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
-  devise_token_auth (~> 1.1.4)
+  devise_token_auth (~> 1.2.2)
   listen (~> 3.2)
   pg (>= 0.18, < 2.0)
   puma (~> 4.1)
