@@ -212,7 +212,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   devise_token_auth (~> 1.2.2)
-  factory_bot_rails
+  factory_bot_rails (~> 6.2)
   faker
   listen (~> 3.2)
   pg (>= 0.18, < 2.0)
