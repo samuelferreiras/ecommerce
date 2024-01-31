@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.1'
 
-gem 'rails', '~> 6.0', '>= 6.0.2'
+gem 'rails', '~> 6.0', '>= 6.0.3'
 
 # Basic
 gem 'bootsnap', '>= 1.4.2', require: false
@@ -18,6 +18,10 @@ gem 'rack-cors', '~> 1.1.1'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'faker'
+  gem 'factory_bot_rails', '~> 5.0'
+  gem 'rspec-rails', '~> 4.0.1'
+  gem 'shoulda-matchers', '~> 4.0'
 end
 
 group :development do
